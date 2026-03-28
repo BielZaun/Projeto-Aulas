@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase: ')).strip()
+f2 = frase.upper()
+print(f'Quantas letras A? {f2.count('A')}')
+print(f'Em qual posição ela aparece pela primeira vez? {f2.find('A')+1}')
+print(f'Qual sua ultima vez? {f2.rfind('A')+1}')
